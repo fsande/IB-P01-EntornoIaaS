@@ -55,6 +55,9 @@ Lea los primeros pasos de [este tutorial](https://blog.desdelinux.net/usando-vim
 aprenda lo básico sobre cómo modificar un fichero usando vi.
 Con este otro [tutorial interactivo on-line](https://www.openvim.com/) puede aprender lo mínimo que necesita
 para usar vi en esta sesión.
+Si está Ud. interesada/o en aprender vim (es un editor muy potente pero los comienzos son difíciles) dispone
+de muchos tutoriales en la web. 
+[Este tutorial](https://github.com/Izaird/Vim-primeros-pasos) explica lo básico de vim a través de ejemplos concretos con ficheros de texto.
 
 Para editar algunas líneas de un fichero usando vi siga estas indicaciones:
 * Use las teclas con flechas arriba/abajo para mover el cursor a la línea que desee editar.
@@ -115,10 +118,6 @@ Para que este cambio tenga efecto, ha de reiniciar la máquina:
 ```
 $ sudo reboot
 ```
-
-Si está Ud. interesada/o en aprender vim (es un editor muy potente pero los comienzos son difíciles) dispone
-de muchos tutoriales en la web. 
-[Este tutorial](https://github.com/Izaird/Vim-primeros-pasos) explica lo básico de vim a través de ejemplos concretos con ficheros de texto.
 
 6. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
 para establecer la configuración de la máquina de modo que se pueda conectar a ella sin necesidad de escribir el password en cada conexión. 
