@@ -50,6 +50,18 @@ Configure el perfil de esa cuenta de modo que incluya una imagen (fotografía) e
 Para la configuración de esa cuenta se le recomienda usar su nombre real, puesto que sus repositorios de código en GitHub
 pasarán a formar parte de su curriculum profesional.
 
+4. Para editar algunos ficheros en esta sesión se usará el editor [vim](https://www.vim.org/).
+Lea los primeros pasos de [este tutorial](https://blog.desdelinux.net/usando-vim-tutorial-basico/) para que
+aprenda lo básico sobre cómo modificar un fichero usando vi.
+Con este otro [tutorial interactivo on-line](https://www.openvim.com/) puede aprender lo mínimo que necesita
+para usar vi en esta sesión.
+
+Para editar algunas líneas de un fichero usando vi siga estas indicaciones:
+* Use las teclas con flechas arriba/abajo para mover el cursor a la línea que desee editar.
+* Antes de modificar el texto ha de presionar `i` para acceder al modo de inserción de vim.
+* Cuando acabe de modificar el texto, pulse ESC (para salir del modo de inserción)
+* Ahora escriba :wq! y presione ENTER para guardar los cambios en disco. W es para escribir (Write), Q para salir (Quit) y ! se usa para forzar la escritura.
+
 ### El Entorno ULL-IaaS
 1. Inicie sesión en Linux en alguno de los PCs de la sala del Centro de Cálculo. 
 En este documento se denominará máquina remota a la máquina virtual (VM) del [IaaS-ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/) 
@@ -92,16 +104,6 @@ Cuando el sistema le pregunte si hacerlo, indique No instalar `grub`.
 
 5. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
 Se propone utilizar como nombre algo como Ubuntu-18-IB-XXX (cambiando "XXX" por lo que Ud. quiera), aunque puede Ud. usar el nombre que más le guste.
-Para editar algunos ficheros en Linux usaremos el editor [vim]() (vi iMproved).
-Lea los primeros pasos de [este tutorial](https://blog.desdelinux.net/usando-vim-tutorial-basico/)  para que
-aprenda lo básico sobre cómo modificar un en vim.
-
-Para editar algunas líneas de un fichero usando vi siga estas indicaciones:
-* Use las teclas con flechas arriba/abajo para mover el cursor a la línea que desee editar.
-* Antes de modificar el texto ha de presionar `i` para acceder al modo de inserción de vim.
-* Cuando acabe de modificar el texto, pulse ESC
-* Ahora escriba :wq! y presione ENTER para guardar los cambios en disco. W es para escribir (Write), Q para salir (Quit) y ! se usa para forzar la escritura.
-
 Para realizar ese cambio ha de editar Ud. los siguientes ficheros (necesita usar `sudo` para tener permisos de
 root al tratarse de ficheros del sistema):
 ```
