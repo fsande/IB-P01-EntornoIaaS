@@ -35,18 +35,18 @@ máquina virtual de la asignatura.
 
 Hay al menos tres opciones para ello, que enumeramos a continuación:
 
-    1.1. Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
+    * Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
 		instale directamente Ubuntu en él siguiendo (por ejemplo) [estas
 		instrucciones](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview). 
 		Para esta instalación necesitará Ud. crear un pendrive desde el que pueda arrancar el ordenador. 
 		Siga para ello (por ejemplo) [estas instrucciones](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
 
-    1.2. Otra posibilidad es instalar Ubuntu como un sistema "invitado" dentro de Windows usando para ello un
+    * Otra posibilidad es instalar Ubuntu como un sistema "invitado" dentro de Windows usando para ello un
 		software de virtualización como VirtualBox. 
 		La página [Install Ubuntu on Oracle VirtualBox](https://brb.nci.nih.gov/seqtools/installUbuntu.html)
 		contiene las instrucciones a seguir para instalar Ubuntu como sistema invitado en Windows.
 
-    1.3. La tercera opción sería la más fácil, pero que se considera menos adecuada. 
+    * La tercera opción sería la más fácil, pero que se considera menos adecuada. 
 		Consiste en no instalar un sistema Linux sino desde Windows acceder vía un cliente ssh a la máquina
 		virtual IaaS de la asignatura para trabajar directamente en el Linux de la máquina IaaS.
 		Para ello se recomienda instalar en Windows [el programa PuTTY](https://www.putty.org/) que puede Ud. descargar libremente.
