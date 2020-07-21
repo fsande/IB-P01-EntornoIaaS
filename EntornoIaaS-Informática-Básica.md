@@ -1,4 +1,4 @@
-# Práctica 01. El Entorno de trabajo IaaS para Informática Básica
+# Práctica 01. El Entorno de trabajo IaaS para la asignatura
 
 
 NOTA: Revisarlo TODO entero teniendo en cuenta que se trata de alumnado de primero
@@ -23,18 +23,35 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 **Avise al profesor** al finalizar la realización de cada uno de los pasos que se indican a continuación. No inicie una nueva tarea sin haber revisado la anterior.
 
 ### Tareas previas
-1. Previamente a la sesión de laboratorio será conveniente que estudie el documento 
+1. Para el trabajo en las prácticas de la asignatura se utilizará intensivamente el Sistema Operativo Linux,
+trabajando fundamentalmente en una máquina virtual disponible a través de la infraestructura [IaaS de la
+ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/).
+Es por ello que resulta muy conveniente que el alumnado tenga acceso en su ordenador personal con el que
+trabaje en casa de un sistema Linux. 
+Hay básicamente tres opciones para ello, que enumeramos a continuación:
+    1.1. Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
+		instale directamente Ubuntu en él siguiendo (por ejemplo) [estas
+		instrucciones](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview). 
+		Para esta instalación necesitará Ud. crear un pendrive desde el que pueda arrancar el ordenador. 
+		Siga para ello (por ejemplo) [estas instrucciones](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
+    1.2. Otro
+    1.3.
+
+
+1. Previamente a la sesión de laboratorio, estudie el documento 
 [Manual de administración de Máquinas PDI](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
-Siga las instrucciones de ese documento (Epígrafe 5, "Acceso a la máquina") para acceder a la interfaz web de las máquinas IaaS y configure la
-conexión desde su casa para poder acceder al entorno IaaS usando VPN (Epígrafe ).
+Tenga en cuenta que el acceso a la infraestructura IaaS está ligado a que esté Ud. registrada/o en el Aula
+Virtual de la Asignatura.
+Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es) y configure la
+conexión desde su casa para poder acceder al entorno IaaS usando VPN.
 Para configurar la conexión VPN siga las instrucciones de la página [Servicio de VPN de la ULL](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).
 Para el trabajo en la asignatura se recomienda que disponga en casa de una máquina con Linux.
-Si inicialmente quiere Ud. conectarse a las máquinas Linux del entorno IaaS desde una máquina Windows le
-recomendamos instalar en Windows [el programa PuTTY](https://www.putty.org/) que puede Ud. descargar
+Si inicialmente quiere Ud. conectarse a las máquinas Linux del entorno IaaS desde una máquina Windows se
+recomienda instalar en Windows [el programa PuTTY](https://www.putty.org/) que puede Ud. descargar
 libremente.
 
-Con anterioridad a la sesión de prácticas, puede Ud. asimismo estudiar los documentos que se enlazan desde
-este así como realizar aquellas tareas en las que no encuentre dificultad.
+Con anterioridad a la sesión de prácticas, debe Ud. asimismo estudiar los documentos que se enlazan desde
+éste así como realizar todas las tareas que aquí se proponen en las que no encuentre dificultad.
 
 2. Acceda al [portal de gestión de usuarios](https://usuarios.ull.es/autogestion/cambio_alias/)
 del Servicio TIC de la ULL y configure allí una dirección de correo electrónico alternativa a su dirección
@@ -51,19 +68,19 @@ Para la configuración de esa cuenta se le recomienda usar su nombre real, puest
 pasarán a formar parte de su curriculum profesional.
 
 4. Para editar algunos ficheros en esta sesión se usará el editor [vim](https://www.vim.org/).
-Lea los primeros pasos de [este tutorial](https://blog.desdelinux.net/usando-vim-tutorial-basico/) para que
+Estudie los primeros pasos de [este tutorial](https://blog.desdelinux.net/usando-vim-tutorial-basico/) para que
 aprenda lo básico sobre cómo modificar un fichero usando vi.
-Con este otro [tutorial interactivo on-line](https://www.openvim.com/) puede aprender lo mínimo que necesita
+Con el estudio de este otro [tutorial interactivo on-line](https://www.openvim.com/) debe aprender lo mínimo que necesita
 para usar vi en esta sesión.
 Si está Ud. interesada/o en aprender vim (es un editor muy potente pero los comienzos son difíciles) dispone
 de muchos tutoriales en la web. 
 [Este tutorial](https://github.com/Izaird/Vim-primeros-pasos) explica lo básico de vim a través de ejemplos concretos con ficheros de texto.
 
-Para editar algunas líneas de un fichero usando vi siga estas indicaciones:
+Para editar algunas líneas concretas de un fichero de texto usando vi siga estas indicaciones:
 * Use las teclas con flechas arriba/abajo para mover el cursor a la línea que desee editar.
 * Antes de modificar el texto ha de presionar `i` para acceder al modo de inserción de vim.
 * Cuando acabe de modificar el texto, pulse ESC (para salir del modo de inserción)
-* Ahora escriba :wq! y presione ENTER para guardar los cambios en disco. W es para escribir (Write), Q para salir (Quit) y ! se usa para forzar la escritura.
+* Ahora escriba `:wq!` y presione ENTER para guardar los cambios en disco. W es para escribir (Write), Q para salir (Quit) y ! se usa para forzar la escritura.
 
 ### El Entorno ULL-IaaS
 1. Inicie sesión en Linux en alguno de los PCs de la sala del Centro de Cálculo. 
@@ -93,7 +110,8 @@ El username será siempre "usuario".
 Utilice el comando `password` para cambiar la contraseña de acceso a la máquina.
 El comando le solicitará que introduzca la contraseña actual (que es `usuario`) y que escriba dos veces la
 nueva contraseña elegida.
-No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro.
+No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro con el comando
+`passwd` pero **anote** el password que elija para no perderlo u olvidarlo. 
 Simplemente elija un password que sea robusto y sobre todo fácil de recordar para Ud.
 
 4. Actualice el software (paquetes) de la máquina siguiendo las indicaciones de [esta página](https://linuxconfig.org/how-to-update-ubuntu-packages-on-18-04-bionic-beaver-linux) (por ejemplo).
@@ -106,7 +124,7 @@ $ sudo apt autoremove
 Cuando el sistema le pregunte si hacerlo, indique No instalar `grub`.
 
 5. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
-Se propone utilizar como nombre algo como Ubuntu-18-IB-XXX (cambiando "XXX" por lo que Ud. quiera), aunque puede Ud. usar el nombre que más le guste.
+Se propone utilizar como nombre algo como Ubuntu-18-IB-XXX (cambiando "XXX" por lo que Ud. quiera), aunque puede Ud. usar para su máquina el nombre que más le guste.
 Para realizar ese cambio ha de editar Ud. los siguientes ficheros (necesita usar `sudo` para tener permisos de
 root al tratarse de ficheros del sistema):
 ```
@@ -137,11 +155,14 @@ para conectarse a la máquina remota.
 4. En la máquina local ejecute el Microsoft Visual Studio Code y siga [estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
 para configurar la edición remota de ficheros.
 
-9. Consiga que se pueda subir código desde su máquina PAI hacia su cuenta GitHub sin necesidad de autentificación. Consulte para ello las instrucciones “[Adding a new SSH key to your GitHub account][10] y compruebe que es Ud. capaz de subir (commit) un fichero desde la máquina remota hacia su cuenta GitHub.
+9. Consiga que se pueda subir código desde su máquina PAI hacia su cuenta GitHub sin necesidad de autentificación. 
+Consulte para ello las instrucciones “[Adding a new SSH key to your GitHub account][10] y compruebe que es Ud. capaz de subir (commit) un fichero desde la máquina remota hacia su cuenta GitHub.
 
 10. Clone en su máquina IaaS el repositorio con el código que se ha entregado (git classroom) con el enunciado de la práctica:
+```
+git clone git@github.com:ULL-ESIT-INF-PAI-2019-2020/2019-2020-PAI-P01-Entorno-XXX.git
+```
 
-    git clone git@github.com:ULL-ESIT-INF-PAI-2019-2020/2019-2020-PAI-P01-Entorno-XXX.git
 Recuerde colocar en el directorio `src` de ese repositorio una copia de todos los ficheros que haya modificado.
  
 13. Ejecute en modo consola (sin usar un navegador) el código de ejemplo `computePI.js` que hemos estudiado en clase.
