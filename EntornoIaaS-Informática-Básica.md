@@ -20,15 +20,20 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Se valorará positivamente que el alumnado haya realizado las tareas propuestas con anterioridad a la sesión de prácticas
 * Se valorará la realización de las diferentes tareas que se proponen
 
+Con anterioridad a la sesión de prácticas, debe Ud. estudiar los documentos que se enlazan desde
+éste así como realizar todas las tareas posibles de las que en este documento se proponen.
+
 **Avise al profesor** al finalizar la realización de cada uno de los pasos que se indican a continuación. No inicie una nueva tarea sin haber revisado la anterior.
 
 ### Tareas previas
 1. Para el trabajo en las prácticas de la asignatura se utilizará intensivamente el Sistema Operativo Linux,
 trabajando fundamentalmente en una máquina virtual disponible a través de la infraestructura [IaaS de la
 ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/).
-Es por ello que resulta muy conveniente que el alumnado tenga acceso en su ordenador personal con el que
-trabaje en casa de un sistema Linux. 
-Hay básicamente tres opciones para ello, que enumeramos a continuación:
+Es por ello que resulta muy conveniente que el alumnado tenga instalado Linux en el ordenador personal con el que
+trabaje desde casa. Optaremos preferentemente por la distribución Ubuntu para que sea la misma que tiene la
+máquina virtual de la asignatura.
+
+Hay al menos tres opciones para ello, que enumeramos a continuación:
 
     1.1. Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
 		instale directamente Ubuntu en él siguiendo (por ejemplo) [estas
@@ -36,27 +41,27 @@ Hay básicamente tres opciones para ello, que enumeramos a continuación:
 		Para esta instalación necesitará Ud. crear un pendrive desde el que pueda arrancar el ordenador. 
 		Siga para ello (por ejemplo) [estas instrucciones](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
 
-    1.2. Otro
+    1.2. Otra posibilidad es instalar Ubuntu como un sistema "invitado" dentro de Windows usando para ello un
+		software de virtualización como VirtualBox. 
+		La página [Install Ubuntu on Oracle VirtualBox](https://brb.nci.nih.gov/seqtools/installUbuntu.html)
+		contiene las instrucciones a seguir para instalar Ubuntu como sistema invitado en Windows.
 
-    1.3.
+    1.3. La tercera opción sería la más fácil, pero que se considera menos adecuada. 
+		Consiste en no instalar un sistema Linux sino desde Windows acceder vía un cliente ssh a la máquina
+		virtual IaaS de la asignatura para trabajar directamente en el Linux de la máquina IaaS.
+		Para ello se recomienda instalar en Windows [el programa PuTTY](https://www.putty.org/) que puede Ud. descargar libremente.
 
+En todo caso recuerde que si desea acceder a las máquinas de la Universidad desde fuera del campus
+universitario necesitará Ud. configurar una conexión usando VPN.
+Para configurar la conexión VPN siga las instrucciones de la página [Servicio de VPN de la ULL](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).
 
-1. Previamente a la sesión de laboratorio, estudie el documento 
-[Manual de administración de Máquinas PDI](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
+2. Previamente a la sesión de laboratorio, estudie el documento 
+[Manual de administración de Máquinas](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
 Tenga en cuenta que el acceso a la infraestructura IaaS está ligado a que esté Ud. registrada/o en el Aula
 Virtual de la Asignatura.
-Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es) y configure la
-conexión desde su casa para poder acceder al entorno IaaS usando VPN.
-Para configurar la conexión VPN siga las instrucciones de la página [Servicio de VPN de la ULL](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).
-Para el trabajo en la asignatura se recomienda que disponga en casa de una máquina con Linux.
-Si inicialmente quiere Ud. conectarse a las máquinas Linux del entorno IaaS desde una máquina Windows se
-recomienda instalar en Windows [el programa PuTTY](https://www.putty.org/) que puede Ud. descargar
-libremente.
+Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es).
 
-Con anterioridad a la sesión de prácticas, debe Ud. asimismo estudiar los documentos que se enlazan desde
-éste así como realizar todas las tareas que aquí se proponen en las que no encuentre dificultad.
-
-2. Acceda al [portal de gestión de usuarios](https://usuarios.ull.es/autogestion/cambio_alias/)
+3. Acceda al [portal de gestión de usuarios](https://usuarios.ull.es/autogestion/cambio_alias/)
 del Servicio TIC de la ULL y configure allí una dirección de correo electrónico alternativa a su dirección
 `aluXXXX@ull.edu.es`.
 Las direcciones (alias) alternativas que el sistema le ofrece han de incluir necesariamente dos dígitos
@@ -64,13 +69,13 @@ numéricos (sin significado específico alguno) y permiten que su dirección de 
 recordar, sobre todo para otras personas.
 Podrá utilizar indistintamente las direcciones `aluXXXX@ull.edu.es` y el alias que configure.
 
-3. [GitHub](https://github.com/) es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git.
+4. [GitHub](https://github.com/) es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git.
 Cree una cuenta en [GitHub](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). 
 Configure el perfil de esa cuenta de modo que incluya una imagen (fotografía) en la que se le reconozca y haga que la cuenta de e-mail asociada sea la dirección institucional o su alias.
 Para la configuración de esa cuenta se le recomienda usar su nombre real, puesto que sus repositorios de código en GitHub
 pasarán a formar parte de su curriculum profesional.
 
-4. Para editar algunos ficheros en esta sesión se usará el editor [vim](https://www.vim.org/).
+5. Para editar algunos ficheros en esta sesión se usará el editor [vim](https://www.vim.org/).
 Estudie los primeros pasos de [este tutorial](https://blog.desdelinux.net/usando-vim-tutorial-basico/) para que
 aprenda lo básico sobre cómo modificar un fichero usando vi.
 Con el estudio de este otro [tutorial interactivo on-line](https://www.openvim.com/) debe aprender lo mínimo que necesita
