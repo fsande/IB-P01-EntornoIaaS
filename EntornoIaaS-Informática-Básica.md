@@ -32,7 +32,7 @@ ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/).
 Es por ello que resulta muy conveniente que el alumnado tenga instalado Linux en el ordenador personal con el que
 trabaje desde casa. Optaremos preferentemente por la distribución Ubuntu para que sea la misma que tiene la
 máquina virtual de la asignatura.  
-Hay al menos tres opciones para ello, que enumeramos a continuación:
+Hay al menos dos opciones para ello:
 
   * Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
   instale directamente Ubuntu en él siguiendo (por ejemplo) [estas
@@ -45,10 +45,9 @@ Hay al menos tres opciones para ello, que enumeramos a continuación:
   La página [Install Ubuntu on Oracle VirtualBox](https://brb.nci.nih.gov/seqtools/installUbuntu.html)
   contiene las instrucciones a seguir para instalar Ubuntu como sistema invitado en Windows.
 
-  * La tercera opción sería la más fácil, pero que se considera menos adecuada. 
-  Consiste en no instalar un sistema Linux sino desde Windows acceder vía un cliente ssh a la máquina
-  virtual IaaS de la asignatura para trabajar directamente en el Linux de la máquina IaaS.
-  Para ello se recomienda instalar en Windows [el programa PuTTY](https://www.putty.org/) que puede Ud. descargar libremente.
+Una opción alternativa que se considera menos adecuada consite en no instalar un sistema Linux sino acceder 
+a la máquina virtual IaaS de la asignatura desde Windows usando para ello un cliente ssh. 
+Se recomienda para este caso instalar en Windows [el cliente ssh PuTTY](https://www.putty.org/) que puede Ud. descargar libremente.
 
 En todo caso recuerde que si desea acceder a las máquinas de la Universidad desde fuera del campus
 universitario necesitará Ud. configurar una conexión usando VPN.
