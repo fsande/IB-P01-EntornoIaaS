@@ -29,12 +29,15 @@ ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/).
 Es por ello que resulta muy conveniente que el alumnado tenga acceso en su ordenador personal con el que
 trabaje en casa de un sistema Linux. 
 Hay básicamente tres opciones para ello, que enumeramos a continuación:
+
     1.1. Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
 		instale directamente Ubuntu en él siguiendo (por ejemplo) [estas
 		instrucciones](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview). 
 		Para esta instalación necesitará Ud. crear un pendrive desde el que pueda arrancar el ordenador. 
 		Siga para ello (por ejemplo) [estas instrucciones](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
+
     1.2. Otro
+
     1.3.
 
 
