@@ -96,29 +96,30 @@ y máquina local al PC del centro de cálculo en el que está trabajando.
 2. Acceda a la [interfaz web](https://iaas.ull.es/ovirt-engine/sso/login.html) 
 de la plataforma IaaS-ULL y autentifíquese en esa interfaz con sus credenciales (username + password) de la cuenta institucional. 
 Vea el estado de la máquina y arránquela para comenzar a trabajar con ella.
-Tome nota de la Dirección IP de la máquina, que se muestra en el apartado "Detalles" de la máquina.
+El proceso de arranque de la máquina puede durar unos minutos.
+Una vez que la máquina haya arrancado, tome nota de la Dirección IP de la máquina, que se muestra en el apartado "Detalles" de la máquina.
 La [dirección IP](https://en.wikipedia.org/wiki/IP_address) es una secuencia de números (de la forma `172.16.254.1`) que identifican de forma unívoca a cualquier dispositivo conectado a Internet.
 Esta dirección será necesaria para establecer conexiones directas a la máquina a través de ssh desde su casa o desde las salas del Centro de Cálculo de la ESIT. 
 Anote esa dirección IP puesto que la máquina conserva esa dirección IP de forma estable. 
 Si en algún momento experimenta dificultades de conexión, conecte a través de la interfaz web y compruebe que
 la dirección de la máquina no ha cambiado.
-Para consultar la IP en un terminal Linux utilice el comando:
+Para consultar la IP de una máquina en un terminal Linux utilice el comando:
 ```
 $ ifconfig -a
 ```
 
-3. Acceda a la consola de la máquina (VNC Console (Browser)) y compruebe el sistema operativo y versión del mismo:
+3. Abra en el navegador la consola de la máquina (VNC Console (Browser)) y acceda a la misma.
+Recuerde que inicialmente las credenciales de acceso son: Username - `usuario` y password - `usuario`.
+En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la
+nueva contraseña elegida (véase la imagen XXX).
+No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro con el comando
+`passwd` pero **anote** el password que elija para no perderlo u olvidarlo.
+La recomendación es que elija ahora un password muy simple (algo como `abcd` y lo cambie por otro que sea robusto y fácil de recordar para Ud.
+cuando acceda posteriormente a la máquina a través de ssh.  
+Compruebe a continuación el sistema operativo y versión del mismo:
 ```
 $ lsb_release -a
 ```
-Tendrá que cambiar el password (que inicialmente es "usuario") de acceso a esa máquina remota la primera vez que entre en ella. 
-El username será siempre "usuario".  
-Utilice el comando `password` para cambiar la contraseña de acceso a la máquina.
-El comando le solicitará que introduzca la contraseña actual (que es `usuario`) y que escriba dos veces la
-nueva contraseña elegida.
-No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro con el comando
-`passwd` pero **anote** el password que elija para no perderlo u olvidarlo. 
-Simplemente elija un password que sea robusto y sobre todo fácil de recordar para Ud.
 
 4. Actualice el software (paquetes) de la máquina siguiendo las indicaciones de [esta página](https://linuxconfig.org/how-to-update-ubuntu-packages-on-18-04-bionic-beaver-linux) (por ejemplo).
 Los comandos que tendrá que utilizar son:
