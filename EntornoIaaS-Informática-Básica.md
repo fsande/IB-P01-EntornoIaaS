@@ -129,6 +129,7 @@ $ sudo apt upgrade
 $ sudo apt autoremove
 ```
 Cuando el sistema le pregunte si hacerlo, indique No instalar `grub`.
+Véase [esta imagen](XXX) y [esta otra](XXX) que ilustran esas opciones.
 
 5. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
 Se propone utilizar como nombre algo como Ubuntu-18-IB-XXX (cambiando "XXX" por lo que Ud. quiera), aunque puede Ud. usar para su máquina el nombre que más le guste.
