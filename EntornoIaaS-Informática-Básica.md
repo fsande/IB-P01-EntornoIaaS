@@ -134,7 +134,7 @@ Véase [esta imagen](XXX) y [esta otra](XXX) que ilustran esas opciones.
 5. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
 Se propone utilizar como nombre algo como Ubuntu-18-IB-XXX (cambiando "XXX" por lo que Ud. quiera), aunque puede Ud. usar para su máquina el nombre que más le guste.
 Para realizar ese cambio ha de editar Ud. los siguientes ficheros (necesita usar `sudo` para tener permisos de
-root al tratarse de ficheros del sistema):
+root al tratarse de ficheros del sistema) y sustituir en ellos el nombre actual de la máquina (que es "ubuntu") por el que haya elegido:
 ```
 $ sudo vi /etc/hostname
 $ sudo vi /etc/hosts
