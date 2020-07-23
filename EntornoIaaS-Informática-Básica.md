@@ -140,15 +140,45 @@ $ sudo vi /etc/hostname
 $ sudo vi /etc/hosts
 ```
 	
-Para que este cambio tenga efecto, ha de reiniciar la máquina:
+Para que este cambio tenga efecto, ha de reiniciar la máquina.  
+Siempre puede reiniciar la máquina desde la interfaz web de administración o bien usando el comando:
 ```
 $ sudo reboot
 ```
 
+6. Instale `git` en su máquina:
+```
+$ sudo sudo apt install git
+```
+y compruebe que está instalado:
+```
+$ git --version
+```
+
+
+7. Cree un directorio `practicas` y  clone en él un repositorio git:
+```
+cd
+mkdir practicas
+cd practicas
+git clone git@github.com:ULL-ESIT-INF-PAI-2019-2020/2019-2020-PAI-P01-Entorno-XXX.git 2019-2020-IB-P01-EntornoIaaS
+```
+ 
+
+
+
+
+
+
+
+7. Consiga que se pueda subir código desde su máquina PAI hacia su cuenta GitHub sin necesidad de autentificación. 
+Consulte para ello las instrucciones “[Adding a new SSH key to your GitHub account][10] y compruebe que es Ud. capaz de subir (commit) un fichero desde la máquina remota hacia su cuenta GitHub.
+
+
 6. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
 para establecer la configuración de la máquina de modo que se pueda conectar a ella sin necesidad de escribir el password en cada conexión. 
 Para poder conectarse por ssh con las máquinas virtuales de IaaS ull ha de autentificarse en la página [acceso.ull.es](acceso.ull.es).  
-En caso de acceder desde fuera de la red de la ULL ha de hacerlo mediante una conexión VPN. 
+Recuerde que en caso de acceder desde fuera de del campus ULL ha de hacerlo mediante una conexión VPN. 
 Consulte [esta referencia](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/) 
 (en el Centro de Cálculo, por ahora no lo necesita) para conectarse a través de vpn.
 
@@ -163,16 +193,7 @@ para conectarse a la máquina remota.
 4. En la máquina local ejecute el Microsoft Visual Studio Code y siga [estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
 para configurar la edición remota de ficheros.
 
-9. Consiga que se pueda subir código desde su máquina PAI hacia su cuenta GitHub sin necesidad de autentificación. 
-Consulte para ello las instrucciones “[Adding a new SSH key to your GitHub account][10] y compruebe que es Ud. capaz de subir (commit) un fichero desde la máquina remota hacia su cuenta GitHub.
 
-10. Clone en su máquina IaaS el repositorio con el código que se ha entregado (git classroom) con el enunciado de la práctica:
-```
-git clone git@github.com:ULL-ESIT-INF-PAI-2019-2020/2019-2020-PAI-P01-Entorno-XXX.git
-```
-
-Recuerde colocar en el directorio `src` de ese repositorio una copia de todos los ficheros que haya modificado.
- 
 13. Ejecute en modo consola (sin usar un navegador) el código de ejemplo `computePI.js` que hemos estudiado en clase.
 14. Codifique y compruebe el funcionamiento del programa que resuelve el ejercicio "[FizzBuzz][14].
 15. Dedique el tiempo restante a probar diferentes códigos (los que más interés le susciten) de [este tutorial][15].
