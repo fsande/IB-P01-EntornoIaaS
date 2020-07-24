@@ -205,47 +205,27 @@ Para instalar VSC en la instalación Linux de su casa siga
 [estas instrucciones](https://code.visualstudio.com/docs/setup/linux)
 descargando el paquete `.deb`.  
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/master/img/VSC-connect-to-host.png)
-muestra el paso 2 del apartado "Connect to a remote host" de esas instrucciones.
+muestra el paso 2 del apartado "Connect to a remote host" de esas instrucciones mientras que
+[esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/master/img/VSC-password.png)
+muestra la ventana de autentificación de VSC para darle acceso a la máquina virtual.  
+Una vez completado este proceso se podrán editar ficheros en la máquina virtual usando VSC.
 
+10. Utilice el VSC para escribir el código fuente del programa 
+[HelloWorld.cc](https://github.com/fsande/IB-class-code-examples/blob/master/IntroductionToC%2B%2B/hello_world.cc).
+Grabe ese fichero en el directorio ~/practicas/ de su máquina virtual.
+Acceda a la máquina virtual usando ssh, compile y ejecute ese programa.
 
-
-
-AAAAAAAAAAAAAAAAAAA
-
-
-
-
-
-
-
-
-
-
-
-7. Consiga que se pueda subir código desde su máquina virtual hacia su cuenta GitHub sin necesidad de autentificación. 
-Consulte para ello las instrucciones “[Adding a new SSH key to your GitHub account][10] y compruebe que es Ud. capaz de subir (commit) un fichero desde la máquina remota hacia su cuenta GitHub.
-
-
-6. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
+11. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
 para establecer la configuración de la máquina de modo que se pueda conectar a ella sin necesidad de escribir el password en cada conexión. 
 Para poder conectarse por ssh con las máquinas virtuales de IaaS ull ha de autentificarse en la página [acceso.ull.es](acceso.ull.es).  
 Recuerde que en caso de acceder desde fuera de del campus ULL ha de hacerlo mediante una conexión VPN. 
 Consulte [esta referencia](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/) 
 (en el Centro de Cálculo, por ahora no lo necesita) para conectarse a través de vpn.
 
-7. También resulta conveniente utilizar alguno de los métodos (ssh config o alias) que se presentan en 
+12. También resulta conveniente utilizar alguno de los métodos (ssh config o alias) que se presentan en 
 [estas instrucciones](https://scotch.io/tutorials/how-to-create-an-ssh-shortcut) 
 de modo que se simplifique la conexión con la máquina remota pudiendo escribir algo como:
 ```
 $ ssh mi_maquina_ibasica
 ```
-para conectarse a la máquina remota.
-
-
-13. Ejecute en modo consola (sin usar un navegador) el código de ejemplo `computePI.js` que hemos estudiado en clase.
-14. Codifique y compruebe el funcionamiento del programa que resuelve el ejercicio "[FizzBuzz][14].
-15. Dedique el tiempo restante a probar diferentes códigos (los que más interés le susciten) de [este tutorial][15].
-
-## Referencias
-[8]: https://scotch.io/tutorials/how-to-create-an-ssh-shortcut "How to Create an SSH Shortcut"
-[10]: https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account 	"Adding a new SSH key to your GitHub account"
+para conectarse a la máquina virtual.
