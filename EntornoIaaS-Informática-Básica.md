@@ -203,7 +203,10 @@ git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoI
 para configurar la edición remota de ficheros alojados en su máquina virtual.  
 Para instalar VSC en la instalación Linux de su casa siga
 [estas instrucciones](https://code.visualstudio.com/docs/setup/linux)
-descargando el paquete `.deb`.
+descargando el paquete `.deb`.  
+[Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/master/img/VSC-connect-to-host.png)
+muestra el paso 2 del apartado "Connect to a remote host" de esas instrucciones.
+
 
 
 
