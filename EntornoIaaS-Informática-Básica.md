@@ -35,10 +35,11 @@ máquina virtual de la asignatura.
 Hay al menos dos opciones para ello:
 
   * Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
-  instale directamente Ubuntu en él siguiendo (por ejemplo) [estas
-  instrucciones](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview). 
+  instale directamente Ubuntu en él siguiendo (por ejemplo) 
+  [estas instrucciones](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview). 
   Para esta instalación necesitará Ud. crear un pendrive desde el que pueda arrancar el ordenador. 
-  Siga para ello (por ejemplo) [estas instrucciones](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
+  Siga para ello (por ejemplo) 
+  [estas otras instrucciones](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
 
   * Otra posibilidad es instalar Ubuntu como un sistema "invitado" dentro de Windows usando para ello un
   software de virtualización como VirtualBox. 
@@ -48,9 +49,9 @@ Hay al menos dos opciones para ello:
 Una opción alternativa que se considera menos adecuada consite en no instalar un sistema Linux sino acceder 
 a la máquina virtual IaaS de la asignatura desde Windows usando para ello un cliente ssh. 
 Se recomienda para este caso instalar en Windows [el cliente ssh PuTTY](https://www.putty.org/) que puede Ud. descargar libremente.  
-![Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/Putty-connection.PNG)
+[Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/Putty-connection.PNG)
 muestra los parámetros para establecer una conexión con una máquina IaaS usando PuTTY y 
-![esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/Putty-login.PNG)
+[esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/Putty-login.PNG)
 muestra la conexión ya establecida.
 
 En todo caso recuerde que si desea acceder a las máquinas de la Universidad desde fuera del campus
