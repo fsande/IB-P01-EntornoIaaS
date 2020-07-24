@@ -186,7 +186,6 @@ y compruebe que está instalado:
 $ git --version
 ```
 
-
 7. Consiga que se pueda subir código desde su máquina virtual hacia su cuenta GitHub sin necesidad de autentificación. 
 Consulte para ello las instrucciones
 [Adding a new SSH key to your GitHub account](https://docs.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account)
@@ -208,7 +207,7 @@ descargando el paquete `.deb`.
 
 
 
-
+AAAAAAAAAAAAAAAAAAA
 
 
 
