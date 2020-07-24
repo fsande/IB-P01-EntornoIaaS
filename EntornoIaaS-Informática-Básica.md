@@ -69,7 +69,8 @@ muestra la conexión ya establecida.
 [Manual de administración de Máquinas](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
 Tenga en cuenta que el acceso a la infraestructura IaaS está ligado a que esté Ud. registrada/o en el Aula
 Virtual de la Asignatura.
-Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es).
+Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es)
+(necesitará establecer una conexión VPN).
 
 3. Acceda al [portal de gestión de usuarios](https://usuarios.ull.es/autogestion/cambio_alias/)
 del Servicio TIC de la ULL y configure allí una dirección de correo electrónico alternativa a su dirección
@@ -116,9 +117,9 @@ Inicialmente su máquina aparece con estado "Apagado" y se arranca mediante el b
 El proceso de arranque de la máquina puede durar unos minutos.
 Una vez que la máquina haya arrancado, tome nota de la Dirección IP de la máquina, que se muestra en el apartado "Detalles" de la máquina.
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/5-ovirt-Direcci%C3%B3nIP.png)
-muestra la pantalla de información correspondiente a una máquina virtual.  
+muestra la pantalla de información correspondiente a una máquina virtual.
 En ella se muestra la dirección IP de la máquina.   
-La [dirección IP](https://en.wikipedia.org/wiki/IP_address) es una secuencia de números (de la forma `172.16.254.1`) que identifican de forma unívoca a cualquier dispositivo conectado a Internet.
+La [dirección IP](https://en.wikipedia.org/wiki/IP_address) es una secuencia de números (de la forma `10.6.131.106`) que identifican de forma unívoca a cualquier dispositivo conectado a Internet.
 Esta dirección será necesaria para establecer conexiones directas a la máquina a través de ssh desde su casa o desde las salas del Centro de Cálculo de la ESIT. 
 Anote esa dirección IP puesto que la máquina conserva esa dirección IP de forma estable. 
 Si en algún momento experimenta dificultades de conexión, conecte a través de la interfaz web y compruebe que
