@@ -164,14 +164,13 @@ que ilustran esas opciones.
 
 
 5. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
-Se propone utilizar como nombre algo como Ubuntu-18-IB-XXX (cambiando "XXX" por lo que Ud. quiera), aunque puede Ud. usar para su máquina el nombre que más le guste.
+Se propone utilizar como nombre algo como Ubuntu-18-IB-XXX (cambiando "XXX" por lo que Ud. quiera), aunque puede Ud. usar para su máquina el nombre que prefiera.
 Para realizar ese cambio ha de editar Ud. los siguientes ficheros (necesita usar `sudo` para tener permisos de
 root al tratarse de ficheros del sistema) y sustituir en ellos el nombre actual de la máquina (que es "ubuntu") por el que haya elegido:
 ```
 $ sudo vi /etc/hostname
 $ sudo vi /etc/hosts
 ```
-	
 Para que este cambio tenga efecto, ha de reiniciar la máquina.  
 Siempre puede reiniciar la máquina desde la interfaz web de administración o bien usando el comando:
 ```
@@ -180,7 +179,7 @@ $ sudo reboot
 
 6. Instale `git` en su máquina:
 ```
-$ sudo sudo apt install git
+$ sudo apt install git
 ```
 y compruebe que está instalado:
 ```
@@ -196,6 +195,12 @@ cd practicas
 git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoIaaS
 ```
  
+8. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
+[estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
+para configurar la edición remota de ficheros alojados en su máquina virtual.  
+Para instalar VSC en la instalación Linux de su casa siga
+[estas instrucciones](https://code.visualstudio.com/docs/setup/linux)
+descargando el paquete `.deb`.
 
 
 
@@ -203,7 +208,8 @@ git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoI
 
 
 
-7. Consiga que se pueda subir código desde su máquina PAI hacia su cuenta GitHub sin necesidad de autentificación. 
+
+7. Consiga que se pueda subir código desde su máquina virtual hacia su cuenta GitHub sin necesidad de autentificación. 
 Consulte para ello las instrucciones “[Adding a new SSH key to your GitHub account][10] y compruebe que es Ud. capaz de subir (commit) un fichero desde la máquina remota hacia su cuenta GitHub.
 
 
@@ -221,9 +227,6 @@ de modo que se simplifique la conexión con la máquina remota pudiendo escribir
 $ ssh mi_maquina_ibasica
 ```
 para conectarse a la máquina remota.
-
-4. En la máquina local ejecute el Microsoft Visual Studio Code y siga [estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
-para configurar la edición remota de ficheros.
 
 
 13. Ejecute en modo consola (sin usar un navegador) el código de ejemplo `computePI.js` que hemos estudiado en clase.
