@@ -117,8 +117,7 @@ Inicialmente su máquina aparece con estado "Apagado" y se arranca mediante el b
 El proceso de arranque de la máquina puede durar unos minutos.
 Una vez que la máquina haya arrancado, tome nota de la Dirección IP de la máquina, que se muestra en el apartado "Detalles" de la máquina.
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/5-ovirt-Direcci%C3%B3nIP.png)
-muestra la pantalla de información correspondiente a una máquina virtual.
-En ella se muestra la dirección IP de la máquina.   
+muestra la pantalla de información correspondiente a una máquina virtual y en ella se muestra la dirección IP de la máquina.   
 La [dirección IP](https://en.wikipedia.org/wiki/IP_address) es una secuencia de números (de la forma `10.6.131.106`) que identifican de forma unívoca a cualquier dispositivo conectado a Internet.
 Esta dirección será necesaria para establecer conexiones directas a la máquina a través de ssh desde su casa o desde las salas del Centro de Cálculo de la ESIT. 
 Anote esa dirección IP puesto que la máquina conserva esa dirección IP de forma estable. 
@@ -134,7 +133,8 @@ $ ifconfig -a
 muestra la pantalla de acceso a la máquina a través de la consola en el navegador.   
 Recuerde que inicialmente las credenciales de acceso son: Username - `usuario` y password - `usuario`.
 En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la
-nueva contraseña elegida (véase la imagen XXX).
+nueva contraseña elegida (véase
+[la imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/3-ovirt-loginVM1.png)).
 No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro con el comando
 `passwd` pero **anote** el password que elija para no perderlo u olvidarlo.
 La recomendación es que elija ahora un password muy simple (algo como `abcd` y lo cambie por otro que sea robusto y fácil de recordar para Ud.
