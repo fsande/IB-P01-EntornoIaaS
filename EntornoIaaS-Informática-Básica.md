@@ -186,8 +186,11 @@ y compruebe que está instalado:
 $ git --version
 ```
 
+7. Consiga que se pueda subir código desde su máquina virtual hacia su cuenta GitHub sin necesidad de autentificación. 
+Consulte para ello las instrucciones
+[Adding a new SSH key to your GitHub account](https://docs.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account)
 
-7. Cree un directorio `practicas` y  clone en él un repositorio git:
+8. Cree un directorio `practicas` y  clone en él un repositorio git:
 ```
 cd
 mkdir practicas
@@ -195,12 +198,19 @@ cd practicas
 git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoIaaS
 ```
  
-8. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
+9. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
 [estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
 para configurar la edición remota de ficheros alojados en su máquina virtual.  
 Para instalar VSC en la instalación Linux de su casa siga
 [estas instrucciones](https://code.visualstudio.com/docs/setup/linux)
 descargando el paquete `.deb`.
+
+
+
+
+
+
+
 
 
 
