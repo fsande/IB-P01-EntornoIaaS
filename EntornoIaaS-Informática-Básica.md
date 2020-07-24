@@ -161,7 +161,7 @@ $ git --version
 cd
 mkdir practicas
 cd practicas
-git clone git@github.com:ULL-ESIT-INF-PAI-2019-2020/2019-2020-PAI-P01-Entorno-XXX.git 2019-2020-IB-P01-EntornoIaaS
+git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoIaaS
 ```
  
 
