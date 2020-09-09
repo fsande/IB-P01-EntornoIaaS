@@ -9,7 +9,7 @@ NOTA: Revisarlo TODO entero teniendo en cuenta que se trata de alumnado de prime
 
 Los objetivos de esta práctica son:
 
-* Realiar algunas tareas administrativas previas para facilitar el trabajo en la asignatura 
+* Realizar algunas tareas administrativas previas para facilitar el trabajo en la asignatura 
 * Conocer y configurar el entorno de trabajo de la asignatura en el sistema Linux del IaaS 
 * Configurar y practicar el uso del Visual Studio Code para editar ficheros en la máquina IaaS de la asignatura
 * Editar, compilar y ejecutar `hello_world.cpp`
