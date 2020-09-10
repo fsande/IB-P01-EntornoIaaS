@@ -32,7 +32,7 @@ ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/).
 Es por ello que resulta muy conveniente que el alumnado tenga instalado Linux en el ordenador personal con el que
 trabaje desde casa. Optaremos preferentemente por la distribución Ubuntu para que sea la misma que tiene la
 máquina virtual de la asignatura.  
-Hay al menos dos opciones para ello:
+Hay al menos tres opciones para ello, que son las siguientes en orden de mayor a menor idoneidad para el trabajo en la asignatura:
 
   * Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
   instale directamente Ubuntu en él siguiendo (por ejemplo) 
@@ -41,10 +41,13 @@ Hay al menos dos opciones para ello:
   Siga para ello (por ejemplo) 
   [estas otras instrucciones](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
 
-  * Otra posibilidad es instalar Ubuntu como un sistema "invitado" dentro de Windows usando para ello un
+  * Instalar Ubuntu como un sistema "invitado" dentro de Windows usando para ello un
   software de virtualización como VirtualBox. 
   La página [Install Ubuntu on Oracle VirtualBox](https://brb.nci.nih.gov/seqtools/installUbuntu.html)
   contiene las instrucciones a seguir para instalar Ubuntu como sistema invitado en Windows.
+  
+  * Utilizar WSL, [Windows subsystem for Linux](https://docs.microsoft.com/es-es/windows/wsl/install-win10).
+  WSL es una característica introducida en Windows 10 que permite instalar un núcleo Linux directamente sobre el sistema operativo de Microsoft.
 
 Una opción alternativa que se considera menos adecuada consiste en no instalar un sistema Linux sino acceder 
 a la máquina virtual IaaS de la asignatura desde Windows usando para ello un cliente ssh. 
