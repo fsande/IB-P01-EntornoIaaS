@@ -27,7 +27,7 @@ Con anterioridad a la sesión de prácticas, debe Ud. estudiar los documentos qu
 
 ### Tareas previas
 1. Para el trabajo en las prácticas de la asignatura se utilizará intensivamente el Sistema Operativo Linux,
-trabajando fundamentalmente en una máquina virtual disponible a través de la infraestructura [IaaS de la
+trabajando fundamentalmente en una [máquina virtual](https://es.wikipedia.org/wiki/M%C3%A1quina_virtual) disponible a través de la infraestructura [IaaS de la
 ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/).
 Es por ello que resulta muy conveniente que el alumnado tenga instalado Linux en el ordenador personal con el que
 trabaje desde casa. Optaremos preferentemente por la distribución Ubuntu para que sea la misma que tiene la
