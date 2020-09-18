@@ -29,12 +29,12 @@ Con anterioridad a la sesión de prácticas, debe Ud. estudiar los documentos qu
 1. Para el trabajo en las prácticas de la asignatura se utilizará intensivamente el Sistema Operativo Linux,
 trabajando fundamentalmente en una [máquina virtual](https://es.wikipedia.org/wiki/M%C3%A1quina_virtual) disponible a través de la infraestructura 
 [IaaS](https://es.wikipedia.org/wiki/Infraestructura_como_servicio_(IaaS)) de la ULL.
-Es por ello que resulta muy conveniente que el alumnado tenga instalado Linux en el ordenador personal con el que
-trabaje desde casa. Optaremos preferentemente por la distribución Ubuntu para que sea la misma que tiene la
-máquina virtual de la asignatura.  
+Es por ello que resulta muy conveniente que el alumnado tenga instalado Linux en un ordenador personal con el que
+trabaje desde su casa. 
+Se optará preferentemente por la distribución Ubuntu para que sea la misma que tiene la máquina virtual de la asignatura.  
 Hay al menos tres opciones para ello, que son las siguientes en orden de mayor a menor idoneidad para el trabajo en la asignatura:
 
-  * Si dispone Ud. de un ordenador propio que pueda formatear (borrando por tanto toda la información)
+  * Si dispone Ud. de un ordenador propio, de uso exclusivo, que pueda formatear (borrando por tanto toda la información)
   instale directamente Ubuntu en él siguiendo (por ejemplo) 
   [estas instrucciones](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview). 
   Para esta instalación necesitará Ud. crear un pendrive desde el que pueda arrancar el ordenador. 
@@ -49,6 +49,9 @@ Hay al menos tres opciones para ello, que son las siguientes en orden de mayor a
   * Utilizar WSL, [Windows subsystem for Linux](https://docs.microsoft.com/es-es/windows/wsl/install-win10).
   WSL es una característica introducida en Windows 10 que permite instalar un núcleo Linux directamente sobre el sistema operativo de Microsoft.
 
+Las tres opciones anteriores están ordenadas atendiendo a la que consideramos idoneidad de cada una, siendo la primera la más idónea, pero este orden posiblemente coincide con el orden inverso de complejidad de la instalación: la primera es posiblemente más compleja que la tercera. 
+Tenga esto en cuenta a la hora de decidirse por cualquiera de estas opciones.
+
 Una opción alternativa que se considera menos adecuada consiste en no instalar un sistema Linux sino acceder 
 a la máquina virtual IaaS de la asignatura desde Windows usando para ello un cliente ssh. 
 Se recomienda para este caso instalar en Windows [el cliente ssh PuTTY](https://www.putty.org/) que puede Ud. descargar libremente.  
@@ -58,7 +61,7 @@ muestra los parámetros para establecer una conexión con una máquina IaaS usan
 muestra la conexión ya establecida.
 
 En todo caso recuerde que si desea acceder a las máquinas de la Universidad desde fuera del campus
-universitario necesitará Ud. configurar una conexión usando VPN.
+universitario necesitará Ud. configurar una conexión usando [VPN](https://es.wikipedia.org/wiki/Red_privada_virtual).
 Para configurar la conexión VPN siga las instrucciones de la página [Servicio de VPN de la ULL](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).  
 Para conexiones VPN usando Windows ha de instalar la aplicación Global Protect tal como se explica en el documento
 [Guía de configuración del cliente VPN GlobalProtect. Sistema Operativo Windows](https://drive.google.com/open?id=0B3mzWpxzbJD1Zm9TdmpXSV9mdGs).
