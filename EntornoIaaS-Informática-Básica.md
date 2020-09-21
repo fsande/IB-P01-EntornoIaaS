@@ -70,7 +70,9 @@ muestra el establecimiento de la conexión VPN con la red de la ULL,
 [esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_InicioSesi%C3%B3n.PNG)
 muestra el inicio de sesión y finalmente
 [esta última](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/GlobalProtect_Conectado.PNG)
-muestra la conexión ya establecida. 
+muestra la conexión ya establecida.
+
+Este vídeo []() muestra cómo establecer en linux una conexión vpn y [este otro](https://www.youtube.com/watch?v=jHUfeN_NMYE&feature=youtu.be) muestra cómo conectar desde linux usando ssh con una máquina virtual del IaaS.
 
 2. Previamente a la sesión de laboratorio, estudie el documento 
 [Manual de administración de Máquinas](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
