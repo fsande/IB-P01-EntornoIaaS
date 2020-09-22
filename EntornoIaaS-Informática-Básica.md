@@ -223,7 +223,7 @@ $ ssh-copy-id -i "$PUBKEYPATH" "$USER_AT_HOST"
 muestra el paso 2 del apartado "Connect to a remote host" de esas instrucciones mientras que
 [esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/master/img/VSC-password.png)
 muestra la ventana de autentificación de VSC para darle acceso a la máquina virtual.  
-Una vez completado este proceso se podrán editar ficheros en la máquina virtual usando VSC.
+[Este vídeo](https://youtu.be/pAUfwae-eWg) ilustra cómo configurar la edición remota de ficheros alojados en máquinas IaaS-ULL usando VSC.
 
 10. Utilice el VSC para escribir el código fuente del programa 
 [HelloWorld.cc](https://github.com/fsande/IB-class-code-examples/blob/master/IntroductionToC%2B%2B/hello_world.cc).
