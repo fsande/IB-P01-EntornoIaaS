@@ -55,6 +55,7 @@ Tenga esto en cuenta a la hora de decidirse por cualquiera de estas opciones.
 Una opción alternativa que se considera menos adecuada consiste en no instalar un sistema Linux sino acceder 
 a la máquina virtual IaaS de la asignatura desde Windows usando para ello un cliente ssh. 
 Se recomienda para este caso instalar en Windows [el cliente ssh PuTTY](https://www.putty.org/) que puede Ud. descargar libremente.  
+[Este vídeo](https://www.youtube.com/watch?v=_-rS8QM0JaI) muestra cómo configurar la VPN en Windows y cómo usar Putty para acceder a una máquina virtual.
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/Putty-connection.PNG)
 muestra los parámetros para establecer una conexión con una máquina IaaS usando PuTTY y 
 [esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/Putty-login.PNG)
