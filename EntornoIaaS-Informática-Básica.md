@@ -226,7 +226,7 @@ muestra la ventana de autentificación de VSC para darle acceso a la máquina vi
 [Este vídeo](https://youtu.be/pAUfwae-eWg) ilustra cómo configurar la edición remota de ficheros alojados en máquinas IaaS-ULL usando VSC.
 
 10. Utilice el VSC para escribir el código fuente del programa 
-[HelloWorld.cc](https://github.com/fsande/IB-class-code-examples/blob/master/IntroductionToC%2B%2B/hello_world.cc).
+[hello_world.cc](https://github.com/fsande/IB-class-code-examples/blob/master/IntroductionToC%2B%2B/hello_world.cc).
 Grabe ese fichero en el directorio ~/practicas/ de su máquina virtual.
 Acceda a la máquina virtual usando ssh, compile y ejecute ese programa.
 
