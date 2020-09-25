@@ -23,8 +23,6 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 Con anterioridad a la sesión de prácticas, debe Ud. estudiar los documentos que se enlazan desde
 éste así como realizar todas las tareas posibles de las que en este documento se proponen.
 
-**Avise al profesor** al finalizar la realización de cada uno de los pasos que se indican a continuación. No inicie una nueva tarea sin haber revisado la anterior.
-
 ### Tareas previas
 1. Para el trabajo en las prácticas de la asignatura se utilizará intensivamente el Sistema Operativo Linux,
 trabajando fundamentalmente en una [máquina virtual](https://es.wikipedia.org/wiki/M%C3%A1quina_virtual) disponible a través de la infraestructura 
