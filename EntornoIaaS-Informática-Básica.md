@@ -1,10 +1,5 @@
 # Práctica 01. El Entorno de trabajo IaaS para la asignatura
 
-
-NOTA: Revisarlo TODO entero teniendo en cuenta que se trata de alumnado de primero
-      Reproducir TODO en el centro de cálculo. Particularmente todo lo relacionado con MS Visual Studio Code
-
-
 ### Objetivos
 
 Los objetivos de esta práctica son:
