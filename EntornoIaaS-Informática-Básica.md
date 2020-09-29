@@ -121,7 +121,7 @@ muestra la pantalla de información correspondiente a una máquina virtual y en 
 La [dirección IP](https://en.wikipedia.org/wiki/IP_address) es una secuencia de números (de la forma `10.6.131.106`) que identifican de forma unívoca a cualquier dispositivo conectado a Internet.
 Esta dirección será necesaria para establecer conexiones directas a la máquina a través de ssh desde su casa o desde las salas del Centro de Cálculo de la ESIT. 
 Anote esa dirección IP puesto que la máquina conserva esa dirección IP de forma estable. 
-Si en algún momento experimenta dificultades de conexión, conecte a través de la interfaz web y compruebe que
+Si en algún momento **experimenta dificultades de conexión**, conecte a través de la interfaz web y compruebe que
 la dirección de la máquina no ha cambiado.
 Para consultar la IP de una máquina en un terminal Linux utilice el comando:
 ```
