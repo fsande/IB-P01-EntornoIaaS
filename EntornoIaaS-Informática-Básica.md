@@ -6,6 +6,7 @@ Los objetivos de esta práctica son:
 
 * Realizar algunas tareas administrativas previas para facilitar el trabajo en la asignatura 
 * Conocer y configurar el entorno de trabajo de la asignatura en el sistema Linux del IaaS 
+* Ser capaz de usar comandos de la shell de GNU/Linux para trabajar en la Máquina Virtual de la asignatura
 * Configurar y practicar el uso del Visual Studio Code para editar ficheros en la máquina IaaS de la asignatura
 * Editar, compilar y ejecutar `hello_world.cpp`
 
