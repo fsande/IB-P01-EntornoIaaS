@@ -139,7 +139,6 @@ No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar 
 `passwd` pero **anote** el password que elija para no perderlo u olvidarlo.
 La recomendación es que elija ahora un password muy simple (algo como `abcd` o similar) y lo cambie por otro que sea robusto y fácil de recordar para Ud. cuando acceda posteriormente a la máquina a través de ssh.  
 No se recomienda introducir caracteres no alfanuméricos en la terminal VNC.
-
 Compruebe a continuación el sistema operativo y versión del mismo:
 ```
 $ lsb_release -a
