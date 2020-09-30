@@ -102,9 +102,9 @@ Para editar algunas líneas concretas de un fichero de texto usando vi siga esta
 * Ahora escriba `:wq!` y presione ENTER para guardar los cambios en disco. W es para escribir (Write), Q para salir (Quit) y ! se usa para forzar la escritura.
 
 ### El Entorno ULL-IaaS
-1. Inicie sesión en Linux en alguno de los PCs de la sala del Centro de Cálculo. 
+1. Inicie sesión en Linux en alguno de los PCs de una sala del Centro de Cálculo o bien desde otro ordenador usando VPN si lo hace desde fuera de la Universidad.
 En este documento se denominará máquina remota a la máquina virtual (VM) del [IaaS-ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/) 
-y máquina local al PC del centro de cálculo en el que está trabajando.
+y máquina local al PC en el que está Ud. trabajando.
 
 2. Acceda a la [interfaz web](https://iaas.ull.es/ovirt-engine/sso/login.html) 
 de la plataforma IaaS-ULL (recuerde tener iniciada una conexión VPN si trabaja desde fuera del campus universitario) y autentifíquese en esa interfaz con sus credenciales (username + password) de la cuenta institucional. 
@@ -113,7 +113,7 @@ muestra la pantalla de acceso a la interfaz.
 Vea el estado de la máquina y arránquela para comenzar a trabajar con ella.
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/2-OvirtVMs.png)
 muestra las máquinas virtuales disponibles. 
-Inicialmente su máquina aparece con estado "Apagado" y se arranca mediante el botón "Ejecutar".  
+Inicialmente la máquina de la asignatura aparece con estado "Apagado" y se arranca mediante el botón "Ejecutar".  
 El proceso de arranque de la máquina puede durar unos minutos.
 Una vez que la máquina haya arrancado, tome nota de la Dirección IP de la máquina, que se muestra en el apartado "Detalles" de la máquina.
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/5-ovirt-Direcci%C3%B3nIP.png)
@@ -128,17 +128,18 @@ Para consultar la IP de una máquina en un terminal Linux utilice el comando:
 $ ifconfig -a
 ```
 
-3. Abra en el navegador la consola de la máquina (VNC Console (Browser)) y acceda a la misma.
-[Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/3-ovirt-loginVM1.png)
-muestra la pantalla de acceso a la máquina a través de la consola en el navegador.   
-Recuerde que inicialmente las credenciales de acceso son: Username - `usuario` y password - `usuario`.
-En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la
-nueva contraseña elegida (véase
-[la imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/3-ovirt-loginVM1.png)).
-No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro con el comando
+3. Abra una conexión ssh con su máquina usando la dirección IP de la misma que ha obtenido en el paso anterior.
+Si esa conexión la realiza desde Linux el comando que ha de usar para establecerla es
+```
+$ ssh usuario@10.6.131.106
+```
+Cambiando en el comando anterior, la dirección IP por la de su máquina.
+En cuanto se conecte a la máquina remota, el sistema le pedirá sus credenciales.
+Recuerde que inicialmente esas credenciales de acceso son: Username - `usuario` y password - `usuario`.
+En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la nueva contraseña elegida.
+No se preocupe por ahora por la contraseña que elija puesto que siempre la puede cambiar en el futuro con el comando
 `passwd` pero **anote** el password que elija para no perderlo u olvidarlo.
-La recomendación es que elija ahora un password muy simple (algo como `informatica` o similar) y lo cambie por otro que sea robusto y fácil de recordar para Ud. cuando acceda posteriormente a la máquina a través de ssh.  
-No se recomienda introducir caracteres no alfanuméricos en la terminal VNC.
+La recomendación es que elija ahora un password simple (algo como `informatica` o similar) y lo cambie por otro que sea robusto y fácil de recordar para Ud. cuando acceda posteriormente a la máquina.  
 Compruebe a continuación el sistema operativo y versión del mismo:
 ```
 $ lsb_release -a
