@@ -20,7 +20,7 @@ Con anterioridad a la sesión de prácticas, debe Ud. estudiar los documentos qu
 éste así como realizar todas las tareas posibles de las que en este documento se proponen.
 
 ### Tareas previas
-## GNU/Linux en su ordenador de trabajo
+#### GNU/Linux en su ordenador de trabajo
 1. Para el trabajo en las prácticas de la asignatura se utilizará intensivamente el Sistema Operativo Linux,
 trabajando fundamentalmente en una [máquina virtual](https://es.wikipedia.org/wiki/M%C3%A1quina_virtual) disponible a través de la infraestructura 
 [IaaS](https://es.wikipedia.org/wiki/Infraestructura_como_servicio_(IaaS)) de la ULL.
