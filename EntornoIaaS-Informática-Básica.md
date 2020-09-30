@@ -164,7 +164,6 @@ y
 [esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/grub2.png) 
 que ilustran esas opciones.
 
-
 10. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
 Se propone utilizar como nombre algo como Ubuntu-18-ASIG-XXX (cambiando "ASIG" por el acrónimo de la asignatura y 
 "XXX" por lo que Ud. quiera), aunque puede Ud. usar para su máquina el nombre que prefiera.
@@ -180,6 +179,7 @@ Siempre puede reiniciar la máquina desde la interfaz web de administración o b
 $ sudo reboot
 ```
 
+#### git y GitHub
 11. Instale `git` en su máquina:
 ```
 $ sudo apt install git
@@ -200,7 +200,8 @@ mkdir practicas
 cd practicas
 git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoIaaS
 ```
- 
+
+#### VSC
 14. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
 [estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
 para configurar la edición remota de ficheros alojados en su máquina virtual.  
@@ -234,6 +235,7 @@ Y para ejecutarlo escriba:
 
 `$ ./hello_world`
 
+#### Simplificar la conexión a la VM
 16. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
 para establecer la configuración de la máquina de modo que se pueda conectar a ella sin necesidad de escribir el password en cada conexión. 
 Para poder conectarse por ssh con las máquinas virtuales de IaaS ull ha de autentificarse en la página [acceso.ull.es](acceso.ull.es).  
