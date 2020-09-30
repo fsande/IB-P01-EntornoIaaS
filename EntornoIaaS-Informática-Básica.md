@@ -6,8 +6,8 @@ Los objetivos de esta práctica son:
 
 * Realizar algunas tareas administrativas previas para facilitar el trabajo en la asignatura 
 * Conocer y configurar el entorno de trabajo de la asignatura en el sistema Linux del IaaS 
-* Ser capaz de usar comandos de la shell de GNU/Linux para trabajar en la Máquina Virtual de la asignatura
-* Configurar y practicar el uso del Visual Studio Code para editar ficheros en la máquina IaaS de la asignatura
+* Ser capaz de usar comandos de la shell de GNU/Linux para trabajar en la Máquina Virtual (VM) de la asignatura
+* Configurar y practicar el uso del Visual Studio Code para editar ficheros en su VM
 * Editar, compilar y ejecutar `hello_world.cpp`
 
 ### Rúbrica de evaluacion del ejercicio
@@ -221,8 +221,15 @@ muestra la ventana de autentificación de VSC para darle acceso a la máquina vi
 
 10. Utilice el VSC para escribir el código fuente del programa 
 [hello_world.cc](https://github.com/fsande/IB-class-code-examples/blob/master/IntroductionToC%2B%2B/hello_world.cc).
-Grabe ese fichero en el directorio ~/practicas/ de su máquina virtual.
+Grabe ese fichero en un directorio ~/practicas/ que cree en su máquina virtual.
 Acceda a la máquina virtual usando ssh, compile y ejecute ese programa.
+Para compilar el programa escriba el siguiente comando 
+
+`$ g++ -std=c++14 -g -Wall -o hello_world hello_world.cc`
+
+Y para ejecutarlo escriba:
+
+`$ ./hello_world`
 
 11. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
 para establecer la configuración de la máquina de modo que se pueda conectar a ella sin necesidad de escribir el password en cada conexión. 
