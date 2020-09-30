@@ -99,16 +99,16 @@ Para editar algunas líneas concretas de un fichero de texto usando vi siga esta
 * Ahora escriba `:wq!` y presione ENTER para guardar los cambios en disco. W es para escribir (Write), Q para salir (Quit) y ! se usa para forzar la escritura.
 
 ### El Entorno ULL-IaaS
-1. Estudie el documento 
+4. Estudie el documento 
 [Manual de administración de Máquinas](https://docs.google.com/document/d/1nj-dxu7LXrNhj3ewCdfaPSc8OV4e_TYpGTQdK78YExY/edit).
 Tenga en cuenta que el acceso a la infraestructura IaaS está ligado a que esté Ud. registrada/o en el Aula Virtual de la Asignatura.
 Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es).
 
-2. Inicie sesión en Linux en alguno de los PCs de una sala del Centro de Cálculo o bien desde otro ordenador usando VPN si lo hace desde fuera de la Universidad.
+5. Inicie sesión en Linux en alguno de los PCs de una sala del Centro de Cálculo o bien desde otro ordenador usando VPN si lo hace desde fuera de la Universidad.
 En este documento se denominará máquina remota a la máquina virtual (VM) del [IaaS-ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/) 
 y máquina local al PC en el que está Ud. trabajando.
 
-3. Acceda a la [interfaz web](https://iaas.ull.es/ovirt-engine/sso/login.html) 
+6. Acceda a la [interfaz web](https://iaas.ull.es/ovirt-engine/sso/login.html) 
 de la plataforma IaaS-ULL (recuerde tener iniciada una conexión VPN si trabaja desde fuera del campus universitario) y autentifíquese en esa interfaz con sus credenciales (username + password) de la cuenta institucional. 
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/1-Ovirt-login.png)
 muestra la pantalla de acceso a la interfaz.  
@@ -130,7 +130,7 @@ Para consultar la IP de una máquina en un terminal Linux utilice el comando:
 $ ifconfig -a
 ```
 
-4. Abra una conexión ssh con su máquina usando la dirección IP de la misma que ha obtenido en el paso anterior.
+7. Abra una conexión ssh con su máquina usando la dirección IP de la misma que ha obtenido en el paso anterior.
 Si esa conexión la realiza desde Linux el comando que ha de usar para establecerla es
 ```
 $ ssh usuario@10.6.131.106
@@ -147,7 +147,7 @@ Compruebe a continuación el sistema operativo y versión del mismo:
 $ lsb_release -a
 ```
 
-5. Actualice el software (paquetes) de la máquina siguiendo las indicaciones de [esta página](https://linuxconfig.org/how-to-update-ubuntu-packages-on-18-04-bionic-beaver-linux) (por ejemplo).
+8. Actualice el software (paquetes) de la máquina siguiendo las indicaciones de [esta página](https://linuxconfig.org/how-to-update-ubuntu-packages-on-18-04-bionic-beaver-linux) (por ejemplo).
 Los comandos que tendrá que utilizar son:
 ```
 $ sudo apt update
@@ -166,7 +166,7 @@ y
 que ilustran esas opciones.
 
 
-6. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
+9. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
 Se propone utilizar como nombre algo como Ubuntu-18-ASIG-XXX (cambiando "ASIG" por el acrónimo de la asignatura y 
 "XXX" por lo que Ud. quiera), aunque puede Ud. usar para su máquina el nombre que prefiera.
 Para realizar ese cambio ha de editar Ud. los siguientes ficheros (necesita usar `sudo` para tener permisos de
@@ -181,7 +181,7 @@ Siempre puede reiniciar la máquina desde la interfaz web de administración o b
 $ sudo reboot
 ```
 
-7. Instale `git` en su máquina:
+10. Instale `git` en su máquina:
 ```
 $ sudo apt install git
 ```
@@ -190,11 +190,11 @@ y compruebe que está instalado:
 $ git --version
 ```
 
-8. Consiga que se pueda subir código desde su máquina virtual hacia su cuenta GitHub sin necesidad de autentificación. 
+11. Consiga que se pueda subir código desde su máquina virtual hacia su cuenta GitHub sin necesidad de autentificación. 
 Consulte para ello las instrucciones
 [Adding a new SSH key to your GitHub account](https://docs.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account)
 
-9. Cree un directorio `practicas` y  clone en él un repositorio git:
+12. Cree un directorio `practicas` y  clone en él un repositorio git:
 ```
 cd
 mkdir practicas
@@ -202,7 +202,7 @@ cd practicas
 git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoIaaS
 ```
  
-10. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
+13. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
 [estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
 para configurar la edición remota de ficheros alojados en su máquina virtual.  
 Para instalar VSC en la instalación Linux de su casa siga
@@ -223,7 +223,7 @@ muestra el paso 2 del apartado "Connect to a remote host" de esas instrucciones 
 muestra la ventana de autentificación de VSC para darle acceso a la máquina virtual.  
 [Este vídeo](https://youtu.be/pAUfwae-eWg) ilustra cómo configurar la edición remota de ficheros alojados en máquinas IaaS-ULL usando VSC.
 
-11. Utilice el VSC para escribir el código fuente del programa 
+14. Utilice el VSC para escribir el código fuente del programa 
 [hello_world.cc](https://github.com/fsande/IB-class-code-examples/blob/master/IntroductionToC%2B%2B/hello_world.cc).
 Grabe ese fichero en un directorio ~/practicas/ que cree en su máquina virtual.
 Acceda a la máquina virtual usando ssh, compile y ejecute ese programa.
@@ -235,14 +235,14 @@ Y para ejecutarlo escriba:
 
 `$ ./hello_world`
 
-12. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
+15. Siga [estas instrucciones](http://www.linuxproblem.org/art_9.html) 
 para establecer la configuración de la máquina de modo que se pueda conectar a ella sin necesidad de escribir el password en cada conexión. 
 Para poder conectarse por ssh con las máquinas virtuales de IaaS ull ha de autentificarse en la página [acceso.ull.es](acceso.ull.es).  
 Recuerde que en caso de acceder desde fuera de del campus ULL ha de hacerlo mediante una conexión VPN. 
 Consulte [esta referencia](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/) 
 (en el Centro de Cálculo, por ahora no lo necesita) para conectarse a través de vpn.
 
-13. También resulta conveniente utilizar alguno de los métodos (ssh config o alias) que se presentan en 
+16. También resulta conveniente utilizar alguno de los métodos (ssh config o alias) que se presentan en 
 [estas instrucciones](https://scotch.io/tutorials/how-to-create-an-ssh-shortcut) 
 de modo que se simplifique la conexión con la máquina remota pudiendo escribir algo como:
 ```
