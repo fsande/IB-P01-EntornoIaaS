@@ -201,7 +201,7 @@ cd practicas
 git clone git@github.com:fsande/IB-P01-EntornoIaaS.git 2019-2020-IB-P01-EntornoIaaS
 ```
 
-#### VSC
+#### Visual Studio Code
 14. En la máquina local ejecute el Microsoft Visual Studio Code (VSC) y siga 
 [estas instrucciones](https://code.visualstudio.com/docs/remote/ssh)
 para configurar la edición remota de ficheros alojados en su máquina virtual.  
