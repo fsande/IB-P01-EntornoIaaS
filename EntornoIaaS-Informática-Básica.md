@@ -137,6 +137,7 @@ $ ssh usuario@10.6.131.106
 Cambiando en el comando anterior, la dirección IP por la de su máquina.
 En cuanto se conecte a la máquina remota, el sistema le pedirá sus credenciales.
 Recuerde que inicialmente esas credenciales de acceso son: Username - `usuario` y password - `usuario`.
+**Preste mucha atención a este paso** porque si comete un error, puede ser irreparable y su máquina resultará inaccesible.
 En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la nueva contraseña elegida.
 No se preocupe por ahora por la contraseña que elija puesto que siempre la puede cambiar en el futuro con el comando
 `passwd` pero **anote** el password que elija para no perderlo u olvidarlo.
