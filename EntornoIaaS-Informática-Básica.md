@@ -140,9 +140,10 @@ Recuerde que inicialmente esas credenciales de acceso son: Username - `usuario` 
 
 **Preste mucha atención a este paso** porque si comete un error, puede ser irreparable y su máquina resultará inaccesible.
 En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la nueva contraseña elegida.
-No se preocupe por ahora por la contraseña que elija puesto que siempre la puede cambiar en el futuro con el comando
-`passwd` pero **anote** el password que elija para no perderlo u olvidarlo.
-La recomendación es que elija ahora un password simple (algo como `informatica` o similar) y lo cambie por otro que sea robusto y fácil de recordar para Ud. cuando acceda posteriormente a la máquina.  
+No se preocupe por ahora por la contraseña que elija puesto que siempre la puede cambiar en el futuro 
+pero **anote** el password que elija para no perderlo u olvidarlo.
+La recomendación es que elija ahora un password simple (algo como `informatica` o similar).
+Ya en el futuro podrá cambiarlo por otro más robusto.
 Compruebe a continuación el sistema operativo y versión del mismo:
 ```
 $ lsb_release -a
@@ -165,6 +166,8 @@ Véase
 y 
 [esta otra](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/grub2.png) 
 que ilustran esas opciones.
+Los comandos que se ejecutan con `sudo` se están ejecutando como "superusuario" de modo que **nunca** ejecute comandos con `sudo` salvo 
+que sepa muy bien lo que está haciendo o se le indique (como en este caso) cómo usarlo.
 
 10. Edite los ficheros necesarios para [cambiar el nombre lógico de la máquina](https://askubuntu.com/questions/9540/how-do-i-change-the-computer-name) que le ha sido asignada. 
 Se propone utilizar como nombre algo como Ubuntu-18-ASIG-XXX (cambiando "ASIG" por el acrónimo de la asignatura y 
