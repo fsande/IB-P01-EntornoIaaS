@@ -252,6 +252,6 @@ Consulte [esta referencia](https://www.ull.es/servicios/stic/2016/05/10/servicio
 [estas instrucciones](https://scotch.io/tutorials/how-to-create-an-ssh-shortcut) 
 de modo que se simplifique la conexión con la máquina remota pudiendo escribir algo como:
 ```
-$ ssh mi_maquina_ibasica
+$ ssh vm_asignatura
 ```
 para conectarse a la máquina virtual.
