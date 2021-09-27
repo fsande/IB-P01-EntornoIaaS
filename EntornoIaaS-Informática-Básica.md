@@ -13,9 +13,7 @@ Los objetivos de esta práctica son:
 ### Rúbrica de evaluacion del ejercicio
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
-* Se valorará positivamente que el alumnado haya realizado las tareas propuestas con anterioridad a la sesión de prácticas
-* Se valorará la realización de las diferentes tareas que se proponen
-
+* Se valorará positivamente que el alumnado haya realizado de forma efectiva las tareas propuestas con anterioridad a la sesión de prácticas
 Con anterioridad a la sesión de prácticas, debe Ud. estudiar los documentos que se enlazan desde
 éste así como realizar todas las tareas posibles de las que en este documento se proponen.
 
