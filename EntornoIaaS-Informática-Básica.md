@@ -1,5 +1,7 @@
 # Práctica 01. El Entorno de trabajo IaaS para la asignatura
 
+# Factor de ponderación: 3
+
 ### Objetivos
 
 Los objetivos de esta práctica son:
