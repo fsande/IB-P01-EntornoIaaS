@@ -104,9 +104,9 @@ No espere al día de evaluación de su práctica para realizar estas tareas.
 
 El documento 
 [Guía para configuración de entornos de escritorio del Centro de
-CálculoURL](https://docs.google.com/document/d/1ciTxGwuoJTBQJRB972iAOxt_kHg9pT_HmwrGa4-0aQA/edit?usp=sharing)
-que puede Ud. hallar en el Aula Virtual contiene instrucciones para configurar el entorno de trabajo del
-CC de modo que su configuración se mantenga cada vez que visite una sala del CC.
+Cálculo](https://docs.google.com/document/d/1ciTxGwuoJTBQJRB972iAOxt_kHg9pT_HmwrGa4-0aQA/edit?usp=sharing)
+que puede Ud. hallar en el Aula Virtual contiene instrucciones para configurar el entorno de trabajo 
+de modo que su configuración se mantenga cada vez que visite una sala del CC.
 
 5. Estudie ese documento y utilícelo como guía para configurar su cuenta de usuario en esa instalación.
 Si tiene Ud. alguna duda, consulte con el personal del CC.
