@@ -109,6 +109,7 @@ que puede Ud. hallar en el Aula Virtual contiene instrucciones para configurar e
 CC de modo que su configuración se mantenga cada vez que visite una sala del CC.
 
 5. Estudie ese documento y utilícelo como guía para configurar su cuenta de usuario en esa instalación.
+Si tiene Ud. alguna duda, consulte con el personal del CC.
 
 
 ### El Entorno ULL-IaaS
